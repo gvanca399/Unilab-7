@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600&family=Red+Rose:wght@400;700&display=swap');
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Red Rose', cursive;
+    font-size: 14px;
+    background-color:#F5F5F5;
+    color: #000000;
+}
+.active{
+    text-decoration-line: underline;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header */
+.header-container{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 49px 68px;
+    border: 1px solid #000000;
+    display: flex;
+}
+.header-container .menu ul{
+display: flex;
+gap: 50px;
+margin-left: 250px;
+}
+nav ul li a{
+    font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+cursor: pointer;
+color: #000000;
+}
+.search-bar {
+    margin-left: 145px;
+}
+input[type=search] {
+    width: 336px;
+    height: 40px;
+    border: 1px solid #4B4B4B;
+    border-radius: 4px;
+    font-size: 16px;
+    background-image: url('../img/search.png');
+    background-position: 10px 8px; 
+    background-repeat: no-repeat;
+    padding: 12px 0 12px 50px;
+    outline: none;
+}
+.logo a{
+    font-family: 'Rufina';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+
+color: #000000;
+}
+main .main-nav{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+main .main-nav ul {
+    display: flex;
+    margin: 0 auto;
+    gap: 62px;
+    padding: 40px 45px;
+}
+main .main-nav ul a{
+    font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+
+color: #000000;
+}
+.main-container{
+    max-width: 1235px;
+    margin: 0 auto;
+}
+.main-container .icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 15px;
+}
+.main-container .icons .right-icons {
+    display: flex;
+    gap: 20px;
+
+}
+main .main-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 65px;
+    row-gap: 110px;
+}
+.color-code{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 10px;
+}
+main .main-box .big-box .color{
+    border-radius: 4px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+main .main-box .big-box .color span{
+    
+    font-family: 'Red Hat Display';
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0 10px;
+    border-radius: 10px 0px 4px;
+    color: transparent;
+}
+main .main-box .big-box .color:hover  span{ 
+    color: #FFFFFF;
+    background: rgba(217, 217, 217, 0.5);
+}
+
+main .main-box .big-box:nth-child(1) .color:nth-child(2){
+    background:#4cc7b2;
+}
+main .main-box .big-box:nth-child(1) .color:nth-child(3){
+    background: #ebe0e0;
+}
+main .main-box .big-box:nth-child(1) .color:nth-child(4){
+    background: #F6C6EA;
+}
+main .main-box .big-box:nth-child(1) .color:nth-child(5){
+    background: #FAF4B7;
+}
+main .main-box .big-box:nth-child(2) .color:nth-child(2){
+    background:#D4ECDD;
+}
+main .main-box .big-box:nth-child(2) .color:nth-child(3){
+    background: #345B63;
+}
+main .main-box .big-box:nth-child(2) .color:nth-child(4){
+    background: #152D35;
+}
+main .main-box .big-box:nth-child(2) .color:nth-child(5){
+    background:  #112031;
+}
+main .main-box .big-box:nth-child(3) .color:nth-child(2){
+    background: #F9F3DF;
+}
+main .main-box .big-box:nth-child(3) .color:nth-child(3){
+    background:  #CDF2CA;
+ }
+ main .main-box .big-box:nth-child(3) .color:nth-child(4){
+    background: #FFDEFA;
+ }
+ main .main-box .big-box:nth-child(3) .color:nth-child(5){
+    background:  #FFC898;
+ }
+ main .main-box .big-box:nth-child(4) .color:nth-child(2){
+    background: #3330E4;
+}
+main .main-box .big-box:nth-child(4) .color:nth-child(3){
+   background:  #F637EC;
+}
+main .main-box .big-box:nth-child(4) .color:nth-child(4){
+    background: #FBB454;
+ }
+ main .main-box .big-box:nth-child(4) .color:nth-child(5){
+    background:  #FAEA48;
+ }
+main .main-box .big-box:nth-child(5) .color:nth-child(2){
+    background: #D9D7F1;
+}
+main .main-box .big-box:nth-child(5) .color:nth-child(3){
+   background:  #FFFDDE;
+}
+main .main-box .big-box:nth-child(5) .color:nth-child(4){
+    background: #E7FBBE;
+ }
+ main .main-box .big-box:nth-child(5) .color:nth-child(5){
+    background:  #FFCBCB;
+ }
+main .main-box .big-box:nth-child(6) .color:nth-child(2){
+    background: #990000;
+}
+main .main-box .big-box:nth-child(6) .color:nth-child(3){
+   background:  #FF5B00;
+}
+main .main-box .big-box:nth-child(6) .color:nth-child(4){
+    background:  #D4D925;
+ }
+ main .main-box .big-box:nth-child(6) .color:nth-child(5){
+    background:  #FFEE63;
+ }
+main .main-box .big-box:nth-child(7) .color:nth-child(2){
+    background: #B91646;
+}
+main .main-box .big-box:nth-child(7) .color:nth-child(3){
+   background:  #DFD8CA;
+}
+main .main-box .big-box:nth-child(7) .color:nth-child(4){
+    background:  #FBF3E4;
+ }
+ main .main-box .big-box:nth-child(7) .color:nth-child(5){
+    background:  #105652;
+ }
+main .main-box .big-box:nth-child(8) .color:nth-child(2){
+    background: #CDF0EA;
+}
+main .main-box .big-box:nth-child(8) .color:nth-child(3){
+   background:  #F9F9F9;
+}
+main .main-box .big-box:nth-child(8) .color:nth-child(4){
+    background:  #F6C6EA;
+ }
+ main .main-box .big-box:nth-child(8) .color:nth-child(5){
+    background:  #FAF4B7;
+ }
+main .main-box .big-box:nth-child(9) .color:nth-child(2){
+    background: #FFCC1D;
+}
+main .main-box .big-box:nth-child(9) .color:nth-child(3){
+   background:  #0B4619;
+}
+main .main-box .big-box:nth-child(9) .color:nth-child(4){
+    background:  #116530;
+ }
+ main .main-box .big-box:nth-child(9) .color:nth-child(5){
+    background:  #E8E8CC;
+ }
+main .main-box .big-box:nth-child(10) .color:nth-child(2){
+    background: #00FFAB;
+}
+main .main-box .big-box:nth-child(10) .color:nth-child(3){
+   background:  #14C38E;
+}
+main .main-box .big-box:nth-child(10) .color:nth-child(4){
+    background:  #B8F1B0;
+ }
+ main .main-box .big-box:nth-child(10) .color:nth-child(5){
+    background:  #E3FCBF;
+ }
+ main .main-box .big-box:nth-child(11) .color:nth-child(2){
+    background: #49FF00;
+}
+main .main-box .big-box:nth-child(11) .color:nth-child(3){
+   background:  #FBFF00;
+}
+main .main-box .big-box:nth-child(11) .color:nth-child(4){
+    background:  #FF9300;
+ }
+ main .main-box .big-box:nth-child(11) .color:nth-child(5){
+    background:  #FF0000;
+ }
+ main .main-box .big-box:nth-child(12) .color:nth-child(2){
+    background: #06283D;
+}
+main .main-box .big-box:nth-child(12) .color:nth-child(3){
+   background:   #1363DF;
+}
+main .main-box .big-box:nth-child(12) .color:nth-child(4){
+    background:   #47B5FF;
+ }
+ main .main-box .big-box:nth-child(12) .color:nth-child(5){
+    background:  #DFF6FF;
+ }
