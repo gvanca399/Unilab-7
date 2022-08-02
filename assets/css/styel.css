@@ -273,3 +273,24 @@ main .main-box .big-box:nth-child(12) .color:nth-child(4){
  main .main-box .big-box:nth-child(12) .color:nth-child(5){
     background:  #DFF6FF;
  }
+
+
+ .ad-logo{
+    width: 100%;
+ }
+ .ad-logo h2{
+    position: absolute;
+    margin-top:110px;
+    margin-left:410px;
+
+    font-family: 'Red Rose';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+color: #FFFFFF;
+
+ }
+ .ad-logo:hover{
+    opacity: 0.6;
+ }
