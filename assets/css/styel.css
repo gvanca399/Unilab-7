@@ -317,9 +317,9 @@ main .main-box .big-box:nth-child(12) .color:nth-child(4){
  }
  .ad-logo h2{
     position: absolute;
-    top: 135px;
-    left: 710px;
-
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
     font-family: 'Red Rose';
 font-style: normal;
 font-weight: 700;
